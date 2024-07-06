@@ -7,9 +7,9 @@ export default {
     plugins: [
         terser(),
         scss({
-            output: 'dist/listree.min.css',
-            outputStyle: "compressed"
-        })
+            output: 'dist/css/listree.min.css',
+            // outputStyle: "compressed"
+        }),
     ],
     output: [
         {
